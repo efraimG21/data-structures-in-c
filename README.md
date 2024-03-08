@@ -67,11 +67,11 @@ The **Stack** is a fundamental data structure built on top of the Vector. It fol
 3. Handle errors using the `HandleErr` function in "ADTErr.c."
 
 ### Examples
-
+```
 // Example usage of ADTErr
 ADTErr result = performOperation();
 HandleErr(result, "Error occurred during the operation");
-
+```
 
 ## Contributing
 
