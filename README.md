@@ -1,6 +1,6 @@
 # Data Structures in C
 
-Welcome to the "Data Structures in C" project, a comprehensive collection of essential data structures implemented in C. Explore the world of Vectors, Stacks, and the Abstract Data Type for Errors (ADTErr) to build a solid foundation in data structure concepts.
+Welcome to the "Data Structures in C" project, a comprehensive collection of essential data structures implemented in C. Explore the world of Vectors, Stacks, Queues, and the Abstract Data Type for Errors (ADTErr) to build a solid foundation in data structure concepts.
 
 ## Introduction
 
@@ -53,6 +53,33 @@ The **Stack** is a fundamental data structure built on top of the Vector. It fol
 4. **StackReverse(Stack_t* stack):**
    - Reverses the order of items in the stack.
    - **Time Complexity:** O(n), where n is the number of items in the stack.
+
+## Queue
+
+### Overview
+
+The **Queue** is a versatile data structure that follows the First In, First Out (FIFO) principle. It allows efficient insertion and deletion operations, making it suitable for scenarios like task scheduling and breadth-first search algorithms.
+
+### Operations and Runtime Complexities
+
+1. **QueueCreate(size_t size):**
+   - Creates a new queue with the given size.
+   - **Time Complexity:** O(1)
+
+2. **QueueInsert(Queue_t* queue, int item):**
+   - Inserts an item into the queue.
+   - **Time Complexity:** O(1)
+
+3. **QueueDelete(Queue_t* queue, int* item):**
+   - Deletes an item from the queue.
+   - **Time Complexity:** O(1)
+
+4. **QueueIsEmpty(Queue_t* queue):**
+   - Checks if the queue is empty.
+   - **Time Complexity:** O(1)
+
+5. **QueuePrint(Queue_t* queue):**
+   - Prints the contents of the queue.
 
 ## ADTErr
 
