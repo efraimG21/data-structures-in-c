@@ -9,6 +9,7 @@ Welcome to the "Data Structures in C" project, a comprehensive collection of ess
 - [Stack](#stack)
 - [Queue](#queue)
 - [Singly Linked List](#singly-linked-list)
+- [Hash map](#hash-map)
 - [ADTErr](#adterr)
 
 ## Introduction
