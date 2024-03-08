@@ -2,8 +2,6 @@
 //  SinglyLinkedList.h
 //  data structures in c
 //
-//  Created by efraim g on 08/03/2024.
-//
 
 #ifndef SinglyLinkedList_h
 #define SinglyLinkedList_h
