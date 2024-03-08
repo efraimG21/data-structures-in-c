@@ -166,3 +166,58 @@ ADTErr VectorGet(Vector_t* vector, size_t index, int* item)
     return ERR_OK;
 }
 
+// Function to set an item in the vector at a specific index
+ADTErr VectorSet(Vector_t* vector, size_t index, int item)
+{
+    // Check if the vector is not initialized
+    if (!vector)
+    {
+        return ERR_NOT_INITIALIZED;
+    }
+    // Check if the index is out of bounds
+    if (index > vector->nItems || index < 1)
+    {
+        return ERR_WRONG_INDEX;
+    }
+
+    // Set the item at the specified index
+    *(vector->items + (index - 1)) = item;
+    return ERR_OK;
+}
+
+// Function to get the number of items in the vector
+ADTErr VectorItemsNum(Vector_t* vector, size_t* numOfItems)
+{
+    // Check if the vector or numOfItems pointer is not initialized
+    if (!vector || !numOfItems)
+    {
+        return ERR_NOT_INITIALIZED;
+    }
+
+    // Retrieve the number of items in the vector
+    *numOfItems = vector->nItems;
+
+    return ERR_OK;
+}
+
+// Function to print the details and items of the vector
+void VectorPrint(Vector_t* vector)
+{
+    if (!vector)
+    {
+        return;
+    }
+    printf("----------------------------------------\n");
+
+    // Print vector details
+    printf("<Vector Details> | BlockSize=%zu | nItems=%zu | currSize=%zu | originalSize=%zu |\n <Vector Items> ",
+        vector->blockSize, vector->nItems, vector->currSize, vector->originalSize);
+
+    // Print vector items
+    for (int i = 0; i < vector->nItems; ++i)
+    {
+        printf("%d ", *(vector->items + i));
+    }
+
+    printf("\n----------------------------------------\n");
+}
