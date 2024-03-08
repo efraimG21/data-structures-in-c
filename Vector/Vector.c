@@ -15,7 +15,7 @@
 
 struct Vector
 {
-    int* items;          // Array to store the elements of the vector
+    int*   items;        // Array to store the elements of the vector
     size_t originalSize; // Initial size of the vector
     size_t blockSize;    // Block size to be added during reallocation
     size_t currSize;     // Current size of the vector
