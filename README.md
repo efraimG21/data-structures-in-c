@@ -77,8 +77,5 @@ HandleErr(result, "Error occurred during the operation");
 
 Feel free to contribute to the project by opening issues or pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 This revised README provides a bit more context about why understanding data structures is important, introduces each data structure, and outlines their key operations and runtime complexities. Adjustments can be made based on your project's specific goals and audience.
