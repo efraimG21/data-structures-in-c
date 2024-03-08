@@ -92,8 +92,6 @@ The **Queue** is a versatile data structure that follows the First In, First Out
    - Prints the contents of the queue.
 
 
-Certainly! Let's add the Singly Linked List section to your README:
-
 ## Singly Linked List
 
 ### Overview
