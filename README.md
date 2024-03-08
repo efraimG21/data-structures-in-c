@@ -133,8 +133,6 @@ The **Singly Linked List** is a linear data structure where elements are stored 
 1. **Include "SinglyLinkedList.h" in your project.**
 2. Utilize the provided functions for inserting, removing, and printing elements in the singly linked list.
 
-Certainly! Let's add the Hash Map section to your README:
-
 ## Hash Map
 
 ### Overview
