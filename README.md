@@ -134,15 +134,39 @@ The **Singly Linked List** is a linear data structure where elements are stored 
 1. **Include "SinglyLinkedList.h" in your project.**
 2. Utilize the provided functions for inserting, removing, and printing elements in the singly linked list.
 
-### Examples
-```c
-// Example usage of Singly Linked List
-Person_t* head = NULL;
-Person_t* person = CreatePerson(1, "John", 25);
-head = ListInsertHead(head, person);
+Certainly! Let's add the Hash Map section to your README:
 
-// Perform other linked list operations...
-```
+## Hash Map
+
+### Overview
+
+The **Hash Map** is a versatile data structure that uses a hash function to map keys to indices, allowing for efficient insertion, retrieval, and deletion of key-value pairs. It provides fast access to data by minimizing the time complexity of these operations.
+
+### Operations and Runtime Complexities
+
+1. **MapCreate(size_t size):**
+   - Creates a new hash map with the given size.
+   - **Time Complexity:** O(1)
+
+2. **MapInsert(HashMap_t* map, Person_t* person):**
+   - Inserts a key-value pair into the hash map.
+   - **Time Complexity:** O(1) on average
+
+3. **MapRemove(HashMap_t* map, Person_t* person):**
+   - Removes a key-value pair from the hash map.
+   - **Time Complexity:** O(1) on average
+
+4. **MapGet(HashMap_t* map, Person_t* person):**
+   - Retrieves the value associated with a key from the hash map.
+   - **Time Complexity:** O(1) on average
+
+5. **MapPrint(HashMap_t* map):**
+   - Prints the contents of the hash map.
+
+### Usage
+
+1. **Include "HashMap.h" in your project.**
+2. Utilize the provided functions for inserting, removing, and retrieving key-value pairs in the hash map.
 
 ## ADTErr
 

@@ -22,6 +22,7 @@ const char* ErrDescription[] =
     "Not allowed duplicatios key",
     "Wrong Key",
     "Data Not Found",
+    "Duplicate Key",
 };
 
 void HandleErr(ADTErr errNum, char* msg)

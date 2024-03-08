@@ -22,6 +22,7 @@ typedef enum
     ERR_DUPLICATE_KEY,           // Duplicate key
     ERR_WRONG_KEY,               // Incorrect key
     ERR_DATA_NOT_FOUND,          // Data not found
+    ERR_DUPLICATIOS_KEY,         // Duplicate key
 
 } ADTErr;
 
