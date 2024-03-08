@@ -26,10 +26,12 @@ const char* ErrDescription[] =
 
 void HandleErr(ADTErr errNum, char* msg)
 {
-    if (errNum)
+    if (errNum >= 0 && errNum < sizeof(ErrDescription) / sizeof(ErrDescription[0]))
     {
-        printf("ErrNum=%d, ErrDescription=%s, msg=%s\n",
-            errNum, ErrDescription[errNum], msg);
+        printf("ErrNum=%d, ErrDescription=%s, msg=%s\n", errNum, ErrDescription[errNum], msg);
     }
-
+    else
+    {
+        printf("Unknown error: ErrNum=%d, msg=%s\n", errNum, msg);
+    }
 }
