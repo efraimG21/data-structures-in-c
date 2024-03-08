@@ -6,6 +6,7 @@ Welcome to the "Data Structures in C" project, a comprehensive collection of ess
 
 - [Introduction](#introduction)
 - [Vector](#vector)
+- [Generic vector](#generic-vector)
 - [Stack](#stack)
 - [Queue](#queue)
 - [Singly Linked List](#singly-linked-list)
@@ -39,6 +40,45 @@ The **Vector** is a dynamic array implementation that facilitates dynamic additi
 4. **VectorPrint(Vector_t* vector):**
    - Prints details and items of the vector.
    - **Time Complexity:** O(n), where n is the number of items.
+
+
+## Generic Vector
+
+### Overview
+
+The **Generic Vector** is a dynamic array implementation designed to store elements of any data type. It provides dynamic addition, deletion, and retrieval of items, offering flexibility for various use cases.
+
+### Operations and Runtime Complexities
+
+1. **GenVectorCreate(size_t size, size_t blockSize):**
+   - Creates a new generic vector with an initial size and block size for reallocation.
+   - **Time Complexity:** O(1)
+
+2. **GenVectorAdd(GenVector_t* vec, void* item):**
+   - Adds an item to the end of the generic vector. Resizes if needed.
+   - **Time Complexity:** O(1) amortized
+
+3. **GenVectorDelete(GenVector_t* vec, void** item):**
+   - Deletes the last item from the generic vector. Shrinks if needed.
+   - **Time Complexity:** O(1) amortized
+
+4. **GenVectorGet(GenVector_t* vec, size_t index, void** item):**
+   - Retrieves an item from the generic vector by index.
+   - **Time Complexity:** O(1)
+
+5. **GenVectorSet(GenVector_t* vec, size_t index, void* item):**
+   - Sets an item in the generic vector by index.
+   - **Time Complexity:** O(1)
+
+6. **GenVectorItemsNum(GenVector_t* vec, size_t* numOfItems):**
+   - Gets the number of items in the generic vector.
+   - **Time Complexity:** O(1)
+
+### Usage
+
+1. **Include "GenericVector.h" in your project.**
+2. Utilize the provided functions for creating, modifying, and accessing elements in the generic vector.
+
 
 ## Stack
 
