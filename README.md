@@ -1,17 +1,16 @@
-```markdown
 # Data Structures in C
 
-This project aims to provide a collection of fundamental data structures implemented in C, including a Vector, Stack, and an Abstract Data Type for Errors (ADTErr).
+Welcome to the "Data Structures in C" project, a comprehensive collection of essential data structures implemented in C. Explore the world of Vectors, Stacks, and the Abstract Data Type for Errors (ADTErr) to build a solid foundation in data structure concepts.
 
 ## Introduction
 
-Understanding data structures is crucial for efficient algorithm design and plays a vital role in writing robust and scalable software. This project serves as a resource for those looking to explore and implement essential data structures in the C programming language.
+Understanding data structures is fundamental to efficient algorithm design, playing a pivotal role in writing robust and scalable software. This project serves as a resource for those looking to explore and implement essential data structures in the C programming language.
 
 ## Vector
 
 ### Overview
 
-The Vector is a dynamic array implementation that allows for the dynamic addition, deletion, and retrieval of elements. It provides automatic memory management and resizing capabilities, making it a versatile tool for managing sequences of data.
+The **Vector** is a dynamic array implementation that facilitates dynamic addition, deletion, and retrieval of elements. It provides automatic memory management and resizing capabilities, making it a versatile tool for managing sequences of data.
 
 ### Operations and Runtime Complexities
 
@@ -35,7 +34,7 @@ The Vector is a dynamic array implementation that allows for the dynamic additio
 
 ### Overview
 
-The Stack is a fundamental data structure built on top of the Vector. It follows the Last In, First Out (LIFO) principle, making it suitable for scenarios where the order of processing matters.
+The **Stack** is a fundamental data structure built on top of the Vector. It follows the Last In, First Out (LIFO) principle, making it suitable for scenarios where the order of processing matters.
 
 ### Operations and Runtime Complexities
 
@@ -59,7 +58,7 @@ The Stack is a fundamental data structure built on top of the Vector. It follows
 
 ### Overview
 
-ADTErr is an Abstract Data Type for error handling within the data structures. It provides a standardized set of error codes and corresponding descriptions to assist developers in identifying and addressing issues in their code.
+**ADTErr** is an Abstract Data Type for error handling within the data structures. It provides a standardized set of error codes and corresponding descriptions to assist developers in identifying and addressing issues in their code.
 
 ### Usage
 
@@ -73,7 +72,7 @@ ADTErr is an Abstract Data Type for error handling within the data structures. I
 // Example usage of ADTErr
 ADTErr result = performOperation();
 HandleErr(result, "Error occurred during the operation");
-```
+
 
 ## Contributing
 
