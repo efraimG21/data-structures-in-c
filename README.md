@@ -2,6 +2,15 @@
 
 Welcome to the "Data Structures in C" project, a comprehensive collection of essential data structures implemented in C. Explore the world of Vectors, Stacks, Queues, and the Abstract Data Type for Errors (ADTErr) to build a solid foundation in data structure concepts.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Vector](#vector)
+- [Stack](#stack)
+- [Queue](#queue)
+- [Singly Linked List](#singly-linked-list)
+- [ADTErr](#adterr)
+
 ## Introduction
 
 Understanding data structures is fundamental to efficient algorithm design, playing a pivotal role in writing robust and scalable software. This project serves as a resource for those looking to explore and implement essential data structures in the C programming language.
