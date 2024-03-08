@@ -81,6 +81,60 @@ The **Queue** is a versatile data structure that follows the First In, First Out
 5. **QueuePrint(Queue_t* queue):**
    - Prints the contents of the queue.
 
+
+Certainly! Let's add the Singly Linked List section to your README:
+
+## Singly Linked List
+
+### Overview
+
+The **Singly Linked List** is a linear data structure where elements are stored in nodes, and each node points to the next node in the sequence. This simple yet powerful structure allows for efficient insertion and deletion of elements, making it useful in various scenarios.
+
+### Operations and Runtime Complexities
+
+1. **ListInsertHead(Person_t* head, Person_t* item):**
+   - Inserts a new node at the beginning of the linked list.
+   - **Time Complexity:** O(1)
+
+2. **ListRemoveHead(Person_t* head, Person_t** item):**
+   - Removes the node at the beginning of the linked list.
+   - **Time Complexity:** O(1)
+
+3. **ListInsertByKey(Person_t* head, int key, Person_t* item):**
+   - Inserts a new node with a specific key value into the sorted linked list.
+   - **Time Complexity:** O(n), where n is the number of elements in the list.
+
+4. **ListRemoveByKey(Person_t* head, int key, Person_t** item):**
+   - Removes the node with a specific key value from the linked list.
+   - **Time Complexity:** O(n), where n is the number of elements in the list.
+
+5. **ListInsertByKeyRec(Person_t* head, int key, Person_t* item):**
+   - Recursively inserts a new node with a specific key value into the sorted linked list.
+   - **Time Complexity:** O(n), where n is the number of elements in the list.
+
+6. **ListRemoveByKeyRec(Person_t* head, int key, Person_t** item):**
+   - Recursively removes the node with a specific key value from the linked list.
+   - **Time Complexity:** O(n), where n is the number of elements in the list.
+
+7. **PrintList(Person_t* head):**
+   - Prints the elements of the linked list.
+   - **Time Complexity:** O(n), where n is the number of elements in the list.
+
+### Usage
+
+1. **Include "SinglyLinkedList.h" in your project.**
+2. Utilize the provided functions for inserting, removing, and printing elements in the singly linked list.
+
+### Examples
+```c
+// Example usage of Singly Linked List
+Person_t* head = NULL;
+Person_t* person = CreatePerson(1, "John", 25);
+head = ListInsertHead(head, person);
+
+// Perform other linked list operations...
+```
+
 ## ADTErr
 
 ### Overview
@@ -103,6 +157,9 @@ HandleErr(result, "Error occurred during the operation");
 ## Contributing
 
 Feel free to contribute to the project by opening issues or pull requests.
+
+
+Feel free to customize the content as needed for your project. If you have any specific requirements or if you'd like further modifications, please let me know!
 
 
 This revised README provides a bit more context about why understanding data structures is important, introduces each data structure, and outlines their key operations and runtime complexities. Adjustments can be made based on your project's specific goals and audience.
