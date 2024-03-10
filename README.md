@@ -11,6 +11,7 @@ Welcome to the "Data Structures in C" project, a comprehensive collection of ess
 - [Queue](#queue)
 - [Singly Linked List](#singly-linked-list)
 - [Hash map](#hash-map)
+- [Binary heap](#binary-heap)
 - [ADTErr](#adterr)
 
 ## Introduction
@@ -204,6 +205,47 @@ The **Hash Map** is a versatile data structure that uses a hash function to map 
 
 1. **Include "HashMap.h" in your project.**
 2. Utilize the provided functions for inserting, removing, and retrieving key-value pairs in the hash map.
+
+
+## Binary Heap
+
+### Overview
+
+The **Binary Heap** is a complete binary tree-based data structure that satisfies the heap property. In a max heap, the key of each node is always greater than or equal to the keys of its children, making the node with the highest key always at the root.
+
+### Operations and Runtime Complexities
+
+1. **BinHeapBuild(Vector_t* vec):**
+   - Builds a binary heap from an existing vector.
+   - **Time Complexity:** O(n), where n is the number of elements in the vector.
+
+2. **BinHeapDestroy(Heap_t* heap):**
+   - Destroys the binary heap, freeing allocated memory.
+   - **Time Complexity:** O(1)
+
+3. **BinHeapMax(Heap_t* heap, int* item):**
+   - Retrieves the maximum item from the binary heap.
+   - **Time Complexity:** O(1)
+
+4. **BinHeapInsert(Heap_t* heap, int item):**
+   - Inserts an item into the binary heap.
+   - **Time Complexity:** O(log n), where n is the number of elements in the heap.
+
+5. **BinHeapRemove(Heap_t* heap, int* item):**
+   - Removes the maximum item from the binary heap.
+   - **Time Complexity:** O(log n), where n is the number of elements in the heap.
+
+6. **BinHeapPrint(Heap_t* heap):**
+   - Prints the contents of the binary heap.
+   - **Time Complexity:** O(n), where n is the number of elements in the heap.
+
+### Usage
+
+1. **Include "BinaryHeap.h" in your project.**
+2. Create a binary heap using `BinHeapBuild` with an existing vector.
+3. Utilize the provided functions for various binary heap operations.
+
+
 
 ## ADTErr
 
