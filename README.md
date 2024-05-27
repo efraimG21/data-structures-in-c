@@ -275,3 +275,8 @@ Feel free to customize the content as needed for your project. If you have any s
 
 
 This revised README provides a bit more context about why understanding data structures is important, introduces each data structure, and outlines their key operations and runtime complexities. Adjustments can be made based on your project's specific goals and audience.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
